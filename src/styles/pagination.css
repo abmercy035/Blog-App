@@ -1,0 +1,23 @@
+#pagination{
+ width: 100%;
+border: 1px red;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.pagination-btn{
+ width: 50%;
+ height: 50px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.pagination-arrow{
+color:black;
+}
+
+.pagination-btn > button{
+ width: 25px;
+ height: 25px;
+ border-radius: 50%;
+}
