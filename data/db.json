@@ -92,7 +92,7 @@
         "time": "2022-03-27 05:54:55"
       }
     ],
-    "category ": "Economy"
+    "category": "Economy"
   },
   {
     "id": 134,
@@ -107,7 +107,7 @@
       "pic": "https://picsum.photos/50?grayscale",
       "time": "2022-06-27 10:36:41"
     }],
-    "category ": "Economy"
+    "category": "Economy"
   },
   {
     "id": 13,
@@ -129,7 +129,7 @@
         "time": "2021-12-05 14:47:15"
       }
     ],
-    "category ": "Technology "
+    "category": "Technology "
   },
   {
     "id": 40,
@@ -144,7 +144,7 @@
       "pic": "https://picsum.photos/50?grayscale",
       "time": "2021-10-03 11:01:04"
     }],
-    "category ": "Music"
+    "category": "Music"
   },
   {
     "id": 89,
@@ -172,7 +172,7 @@
         "time": "2022-04-14 10:31:42"
       }
     ],
-    "category ": "Sciene"
+    "category": "Sciene"
   },
   {
     "id": 119,
@@ -194,7 +194,7 @@
         "time": "2021-11-09 14:51:53"
       }
     ],
-    "category ": "Sciene"
+    "category": "Sciene"
   },
   {
     "id": 84,
@@ -222,7 +222,7 @@
         "time": "2022-02-04 22:29:47"
       }
     ],
-    "category ": "Art"
+    "category": "Art"
   },
   {
     "id": 10,
@@ -250,7 +250,7 @@
         "time": "2022-05-27 01:43:15"
       }
     ],
-    "category ": "Trending"
+    "category": "Trending"
   },
   {
     "id": 78,
@@ -265,7 +265,7 @@
       "pic": "https://picsum.photos/50?grayscale",
       "time": "2021-11-22 14:47:44"
     }],
-    "category ": "Music"
+    "category": "Music"
   },
   {
     "id": 98,
@@ -293,7 +293,7 @@
         "time": "2021-11-21 08:01:53"
       }
     ],
-    "category ": "Entertainment"
+    "category": "Entertainment"
   },
   {
     "id": 115,
@@ -308,7 +308,7 @@
       "pic": "https://picsum.photos/50?grayscale",
       "time": "2022-03-31 07:27:26"
     }],
-    "category ": "Art"
+    "category": "Art"
   },
   {
     "id": 124,
@@ -330,7 +330,7 @@
         "time": "2021-12-13 06:39:27"
       }
     ],
-    "category ": "Food"
+    "category": "Food"
   },
   {
     "id": 37,
@@ -352,7 +352,7 @@
         "time": "2022-07-14 00:23:32"
       }
     ],
-    "category ": "Entertainment"
+    "category": "Entertainment"
   },
   {
     "id": 62,
@@ -367,7 +367,7 @@
       "pic": "https://picsum.photos/50?grayscale",
       "time": "2022-01-27 22:53:56"
     }],
-    "category ": "Food"
+    "category": "Food"
   },
   {
     "id": 109,
@@ -389,7 +389,7 @@
         "time": "2022-06-06 02:35:38"
       }
     ],
-    "category ": "Technology "
+    "category": "Technology "
   },
   {
     "id": 76,
@@ -417,7 +417,7 @@
         "time": "2022-08-02 18:10:41"
       }
     ],
-    "category ": "Food"
+    "category": "Food"
   },
   {
     "id": 65,
@@ -439,7 +439,7 @@
         "time": "2022-04-25 04:10:30"
       }
     ],
-    "category ": "Trending"
+    "category": "Trending"
   },
   {
     "id": 92,
@@ -467,7 +467,7 @@
         "time": "2021-08-12 16:01:31"
       }
     ],
-    "category ": "Trending"
+    "category": "Trending"
   },
   {
     "id": 100,
@@ -495,7 +495,7 @@
         "time": "2022-07-16 16:43:19"
       }
     ],
-    "category ": "Entertainment"
+    "category": "Entertainment"
   },
   {
     "id": 119,
@@ -510,7 +510,7 @@
       "pic": "https://picsum.photos/50?grayscale",
       "time": "2022-05-14 05:50:14"
     }],
-    "category ": "Food"
+    "category": "Food"
   },
   {
     "id": 37,
@@ -525,7 +525,7 @@
       "pic": "https://picsum.photos/50?grayscale",
       "time": "2021-12-17 07:29:07"
     }],
-    "category ": "Economy"
+    "category": "Economy"
   },
   {
     "id": 32,
@@ -553,7 +553,7 @@
         "time": "2021-12-20 01:58:34"
       }
     ],
-    "category ": "Entertainment"
+    "category": "Entertainment"
   },
   {
     "id": 45,
@@ -581,7 +581,7 @@
         "time": "2022-04-25 17:39:51"
       }
     ],
-    "category ": "Music"
+    "category": "Music"
   },
   {
     "id": 29,
@@ -596,7 +596,7 @@
       "pic": "https://picsum.photos/50?grayscale",
       "time": "2022-07-05 05:33:42"
     }],
-    "category ": "Art"
+    "category": "Art"
   },
   {
     "id": 33,
@@ -618,7 +618,7 @@
         "time": "2022-04-07 17:34:30"
       }
     ],
-    "category ": "Trending"
+    "category": "Trending"
   },
   {
     "id": 107,
@@ -646,7 +646,7 @@
         "time": "2021-10-03 21:33:05"
       }
     ],
-    "category ": "Music"
+    "category": "Music"
   },
   {
     "id": 61,
@@ -661,7 +661,7 @@
       "pic": "https://picsum.photos/50?grayscale",
       "time": "2021-09-08 15:10:53"
     }],
-    "category ": "Trending"
+    "category": "Trending"
   },
   {
     "id": 2,
@@ -689,7 +689,7 @@
         "time": "2022-01-04 02:52:07"
       }
     ],
-    "category ": "Economy"
+    "category": "Economy"
   }
 ]
 }

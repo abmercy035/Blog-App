@@ -17,7 +17,7 @@ export default function Pagination ({ pages, pagination, list, Func }) {
           pagination - 4 < id && id <= pagination + 1 ? (
             <button
               style={
-                pagination == id + 1
+                pagination === id + 1
                   ? {
                       color: '#fff',
                       fontWeight: '900',

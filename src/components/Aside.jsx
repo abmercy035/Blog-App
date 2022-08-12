@@ -16,27 +16,31 @@ export default function Aside () {
       {error && <div> {error} </div>}
       {isFetching && <div> Loading... </div>}
       {blogs && (
-        <div className='recent-blog'>
-          <h3>{'Recent'}</h3>
-
+        <div className='side-blog'>
+          <h3>{'Most Engaged'}</h3>
           {blogs.map((blogComments, index) => {
-            
-            if(index < 3)
-            return (
-          <div key={index} className='blog-preview'>
-                <Link to={`/posts/${blogComments.postId}`}>
-                  {
-                    blogComments?.comments?.map(comments => {
-                  return  <>
-                    {comments?.comment}
-                    <hr></hr>
-                    </>
-             }) }
-                </Link>
-            {blogComments?.category}
-                       </div>
-                )
-     
+            if (blogComments?.comments.length >= 3) {
+              return (
+                <div key={index} className='blog-preview'>
+                  <Link to={`/posts/${blogComments.postId}`}>
+                    {blogComments?.body.slice(1, 80)}
+                  </Link>
+                </div>
+              )
+            }
+          })}
+
+          <h3>{'Categories'}</h3>
+          {blogs.map((blogComments, index) => {
+            if (blogComments?.comments.length >= 3) {
+              return (
+                <div key={index} className='blog-preview'>
+                  <Link to={`/posts/${blogComments.postId}`}>
+                    {blogComments?.body.slice(1, 80)}
+                  </Link>
+                </div>
+              )
+            }
           })}
         </div>
       )}
