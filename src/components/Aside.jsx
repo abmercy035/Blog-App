@@ -7,9 +7,16 @@ import { Link } from 'react-router-dom'
 import useFetch from '../states/useFetch'
 import BlogList from './BlogList'
 import '../styles/aside.css'
+import Form from './Form'
+import Categories from './Categories'
+import MostEngaged from './MostEngaged'
+import Footer from './Footer'
 export default function Aside () {
   const { data: blogs, error, isFetching } = useFetch(
     'http://localhost:5000/posts/'
+  )
+  const { data: users, Error, IsFetching } = useFetch(
+    'http://localhost:5000/users/'
   )
   return (
     <div className='side-blog'>
@@ -18,42 +25,20 @@ export default function Aside () {
       {blogs && (
         <div className='side-blog'>
           <h3>{'Most Engaged'}</h3>
-          {blogs.map((blogComments, index) => {
-            if (blogComments?.comments.length >= 3) {
-              return (
-                <div key={index} className='blog-preview'>
-                  <Link to={`/posts/${blogComments.postId}`}>
-                    {blogComments?.body.slice(1, 80)}
-                  </Link>
-                </div>
-              )
-            }
-          })}
-
+<MostEngaged />
           <h3>{'Categories'}</h3>
-          {blogs.map((blogComments, index) => {
-            if (blogComments?.comments.length >= 3) {
-              return (
-                <div key={index} className='blog-preview'>
-                  <Link to={`/posts/${blogComments.postId}`}>
-                    {blogComments?.body.slice(1, 80)}
-                  </Link>
-                </div>
-              )
-            }
-          })}
+<Categories category={'Art'}/>
+<Categories category={'Science And Tech'}/>
+<Categories category={'Music'}/>
+<Categories category={'Entertainment'}/>
+<Categories category={'Food'}/>
+<Categories category={'Economy'}/>
+<Categories category={'Religion'}/>
+<Categories category={'Culture'}/>
         </div>
       )}
+      <Form />
+<Footer />
     </div>
   )
 }
-
-//               index < 3 ? (
-//  blogComments.map((comment, index) =>
-//                   <div key={blog.id} className='blog-preview'>
-//                     <Link to={`/posts/${blog.postId}`}>
-//                       <h3> {blog.title} </h3>
-//                       <div> {blog.body} </div>
-//                       <p> Post by user {blog.id} </p>
-//                     </Link>
-//                   </div>
