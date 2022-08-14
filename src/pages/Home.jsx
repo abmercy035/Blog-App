@@ -56,14 +56,16 @@ export const Home = ({ searchFor }) => {
             }}
           />
         </div>
-        <div><Aside /> </div>
+        <div>
+          <Aside />
+        </div>
       </div>
-      <footer>
+      <section>
         <Link to='/create'>
           <div>
           </div>
         </Link>
-      </footer>
+      </section>
     </>
   )
 }

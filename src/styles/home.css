@@ -1,5 +1,7 @@
 #home{
  display: grid;
- grid-template-columns: 1fr 40%;
- column-gap: 5px;
+ grid-template-columns: 1fr 35%;
+ column-gap: 10px;
+ margin: auto;
+ border: red solid;
 }

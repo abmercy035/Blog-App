@@ -10,7 +10,7 @@ import '../styles/aside.css'
 import Form from './Form'
 import Categories from './Categories'
 import MostEngaged from './MostEngaged'
-import Footer from './Footer'
+import Footer from './SideFooter'
 export default function Aside () {
   const { data: blogs, error, isFetching } = useFetch(
     'http://localhost:5000/posts/'
@@ -19,11 +19,12 @@ export default function Aside () {
     'http://localhost:5000/users/'
   )
   return (
+    
     <div className='side-blog'>
       {error && <div> {error} </div>}
       {isFetching && <div> Loading... </div>}
       {blogs && (
-        <div className='side-blog'>
+        <>
           <h3>{'Most Engaged'}</h3>
 <MostEngaged />
           <h3>{'Categories'}</h3>
@@ -35,7 +36,7 @@ export default function Aside () {
 <Categories category={'Economy'}/>
 <Categories category={'Religion'}/>
 <Categories category={'Culture'}/>
-        </div>
+        </>
       )}
       <Form />
 <Footer />

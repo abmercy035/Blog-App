@@ -1,3 +1,4 @@
+
 .blog-list {
   display: flex;
   flex-direction: column;
@@ -5,7 +6,7 @@
   align-items: center;
   padding-top: 20px;
   margin-top: 40px;
-border: 1px solid red;
+
 }
 /* .blog-preview{
  display: flex;
@@ -40,8 +41,7 @@ border: 1px solid red;
 
 .post-title {
   font-size: 20px;
-  align-self: flex-start;
- padding: 10px 10px 0;
+ text-align: center;
 }
 /* .post-title::first-letter {
   font-size: 30px;
@@ -59,18 +59,23 @@ border: 1px solid red;
 .post-body {
  padding: 5px 10px;
  text-align: justify;
-
+font-size: large;
 }
 
 .post-foot {
- width: 90%;
+ width: 100%;
  color: black;
  font-style: italic;
  display: flex;
  justify-content: space-between;
- align-items: baseline;
- font-size: 1fpx;
- /* border: 1px solid red; */
+ align-items: center;
+ box-shadow: 0px 0px 1px rgb(70, 69, 69);
+ padding: 0 5px;
+}
+.post-foot > p {
+ display: flex;
+gap: 5px;
+ align-items: center;
 }
 .post-avatar{
 width: 20px;
@@ -83,5 +88,19 @@ border-radius: 50px;
 }
 
 .blog-preview a {
-  text-decoration: none;
+  text-decoration: underline;
+  color: royalblue;
+}
+
+.post-category{
+align-self: flex-start;
+ margin-left: 5px;
+ font-size: x-small;
+ 
+}
+.post-category > a >  span {
+font-weight: 600;
+ margin-left: 5px;
+ color: red;
+
 }

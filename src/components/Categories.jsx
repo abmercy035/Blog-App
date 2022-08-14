@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import useFetch from '../states/useFetch'
+import "../styles/categories.css"
 
 export default function Categories ({ category }) {
   const { data: blogs, error, isFetching } = useFetch (
@@ -14,7 +15,7 @@ export default function Categories ({ category }) {
         }).map((blogComments, index) => {
           if (index < 1) {
             return (
-              <div key={index} className='blog-preview'>
+              <div key={index} className='categories-samples'>
                 <Link to={`/posts/${blogComments.postId}`}>
                   {blogComments?.body.slice(1, 80)}
                 </Link>
