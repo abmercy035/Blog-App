@@ -9,6 +9,18 @@ gap: 30px;
 align-items: center;
 padding: 5px;
 }
+
+#about-footer{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+gap: 30px;
+text-align: justify;
+padding: 5px;
+font-size: 18px;
+}
+
 #side-footer > #footer-address{
 width: 100%;
 display: flex;
@@ -17,6 +29,12 @@ justify-content: space-evenly;
 gap: 30px;
 }
 #side-footer  > #footer-address > h3{
+text-align: center;
+border: 1px royalblue solid;
+padding: 4px;
+}
+#about-footer > h3{
+ width: 100%;
 text-align: center;
 border: 1px royalblue solid;
 padding: 4px;
@@ -53,11 +71,31 @@ padding: 4px;
  padding: 4px;
 }
 #side-footer > #Working-hr > nav > ul > li{
- width: 80%;
+ width: 100%;
  display: flex;
+ font-size: small;
  justify-content: space-between;
 line-height: 25px;
- margiop: 5px;
+ margin-top: 5px;
  font-weight: 500;
  align-self: center;
+}
+
+.contact-foot{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: small;
+ flex-wrap: wrap;
+ line-height: 25px;
+ margin-top: 5px;
+ font-weight: 500;
+ align-self: center;
+ gap: 5px;
+}
+.contact-foot > img{
+ width: 30px;
+ border-radius: 5px;
+margin: 10px;
 }

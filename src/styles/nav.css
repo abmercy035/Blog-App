@@ -1,13 +1,14 @@
 .navbar {
   border-bottom: 1px solid #f0f3fa;
-  min-width: 55%;
+  min-width: 80%;
+
 }
 .navbar .links {
   display: flex;
   justify-content: space-between;
   margin: 10px 0 10px;
- }
- .navbar a {
+}
+.navbar a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,8 +16,20 @@
   width: 100%;
   height: 30px;
   max-width: 100%;
+  text-decoration: none;
+  color: royalblue;
 }
 .navbar a:hover {
   color: #ffffff;
   background-color: #3571f1;
+}
+.sponsors{
+display: flex;
+justify-content: space-between;
+align-items: center;
+border: red solid;
+}
+.sponsors-img{
+width: 25px;
+height: 25px;
 }

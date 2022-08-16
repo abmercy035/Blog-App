@@ -82,3 +82,46 @@ height: 100px;
 border: none;
 }
 
+.contact-form{
+  width: 90%;
+ /* height: 200px; */
+ /* border: red solid; */
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ padding-bottom: 5px;
+margin: 40px;
+}
+
+.contact-form > h3{
+ width: 80%;
+ height: fit-content;
+text-align: center;
+font-weight: 400;
+}
+.contact-form > form{
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ gap: 10px;
+}
+
+.contact-form > form > input{
+width: 100%;
+height: 35px;
+border: none;
+}
+
+.contact-form > form > #category{
+width: 100%;
+height: 35px;
+border: none;
+}
+.contact-form > form > textarea{
+width: 100%;
+height: 100px;
+border: none;
+}
+
