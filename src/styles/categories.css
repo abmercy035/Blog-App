@@ -1,4 +1,4 @@
-.blog-categories {
+@media only screen and (min-width: 900px){.blog-categories {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -10,4 +10,5 @@
   flex-direction: column;
   justify-content: space-evenly;
   padding: 2%;
+}
 }

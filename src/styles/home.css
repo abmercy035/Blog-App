@@ -1,7 +1,8 @@
-#home{
+@media only screen and (min-width: 900px)
+{#home{
  display: grid;
  grid-template-columns: 1fr 35%;
  column-gap: 10px;
  margin: auto;
- border: red solid;
+}
 }

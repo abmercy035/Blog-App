@@ -30,16 +30,24 @@ export const Home = ({ searchFor }) => {
   return (
     <>
       <div id='home'>
-        <div className='posts'>
-          {error && <div> {error} </div>}
-          {isFetching && <div> Loading... </div>}
-          {blogs &&
+
+     <div className='posts'>
+        <Pagination
+  pages={len}
+  pagination={page}
+  Func={e => {
+    setPage(e)
+  }}
+/>
+  {error && <div> {error} </div>}
+{isFetching && <div> Loading... </div>}
+  {blogs &&
             (!searchFor ? (
               <BlogList
                 blogs={blogs}
                 pagination={page}
                 title='Blog Posts'
-              ></BlogList>
+/>
             ) : (
               <BlogList
                 blogs={filterIt(searchFor, blogs)}
@@ -66,6 +74,8 @@ export const Home = ({ searchFor }) => {
           </div>
         </Link>
       </section>
+      <div id="copyright"> Blog Site@ : Javascript Enthusiast &copy;2022 </div>
+
     </>
   )
 }

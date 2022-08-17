@@ -8,7 +8,6 @@ export default function Pagination ({ pages, pagination, list, Func }) {
     arr.push(i)
   }
 
-  // console.log(pages)
   return (
     <div key={Math.floor(Math.random() * 500)} id='pagination'>
       {pagination < 4 ? null : <Back Func={() => Func(pagination - 1)} />}

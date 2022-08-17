@@ -109,7 +109,6 @@ export default function Footer () {
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, atque! Labore aliquid blanditiis non quod dolore provident dolorem nulla quaerat.
       </div>
       <NavBar />
-      <div> Javascript Enthusiast </div>
     </div>
   )
 }

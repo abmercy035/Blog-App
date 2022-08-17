@@ -1,4 +1,5 @@
-#search-bar {
+@media only screen and (min-width: 900px)
+{#search-bar {
   width: 60%;
   height: 40px;
   display: block;
@@ -13,4 +14,5 @@
   color: #000;
   font-size: 19px;
   opacity: 0.8;
+}
 }
