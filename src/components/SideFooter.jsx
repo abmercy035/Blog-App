@@ -72,7 +72,7 @@ export default function Footer () {
       </div>
       <div className='sponsors-foot'>
         <h3>Sponsors</h3>
-        <p>
+        <>
           <nav>
             <ul>
               <li className='sponsors'>
@@ -97,7 +97,7 @@ export default function Footer () {
               </li>
             </ul>
           </nav>
-        </p>
+        </>
       </div>
       <div id='about-footer'>
         <h3> About </h3>
@@ -106,6 +106,7 @@ export default function Footer () {
         consequuntur, aperiam soluta expedita dolores inventore animi hic,
         quaerat atque? Voluptatem, nemo Lorem ipsum dolor sit amet consectetur
         adipisicing elit. Ad, repellendus!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, atque! Labore aliquid blanditiis non quod dolore provident dolorem nulla quaerat.
       </div>
       <NavBar />
       <div> Javascript Enthusiast </div>

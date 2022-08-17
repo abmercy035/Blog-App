@@ -33,7 +33,7 @@ export default function Form () {
         </form>
       </div>
       <div className='contact-form'>
-        <h3> Create an Account or Sign In</h3>
+        <h3> Contact Us</h3>
         <form action='./post' method='post'>
           <Input pH={'Full Name'} id='contact-name' />
           <Input type='email' pH={'Email'} name='email' id='contact-email' />
