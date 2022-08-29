@@ -1,87 +1,83 @@
+@media screen and (min-width : 900px){
 /* SIDE FOOTER */
 
-#side-footer{
-width: 100%;
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-gap: 30px;
-align-items: center;
-padding: 5px;
-}
-
-#about-footer{
-width: 100%;
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-gap: 30px;
-text-align: justify;
-padding: 5px;
-font-size: 18px;
-}
-
-#side-footer > #footer-address{
-width: 100%;
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-gap: 30px;
-}
-#side-footer  > #footer-address > h3{
-text-align: center;
-border: 1px royalblue solid;
-padding: 4px;
-}
-#about-footer > h3{
+#side-footer * h3 {
  width: 100%;
-text-align: center;
-border: 1px royalblue solid;
-padding: 4px;
-}
-#side-footer > #footer-address > div{
+ color: red !important;
+ text-align: center;
  align-self: center;
- font-weight: 500;
+ margin-top: 15px;
+ text-align: center;
+ border: 1px royalblue solid;
  padding: 4px;
 }
-#side-footer > #Working-hr{
+
+#side-footer {
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ gap: 30px;
+ align-items: center;
+ padding: 5px;
+}
+
+#about-footer {
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ gap: 30px;
+ text-align: justify;
+ padding: 5px;
+ font-size: 18px;
+}
+
+#side-footer > #footer-address {
  width: 100%;
  display: flex;
  flex-direction: column;
  justify-content: space-evenly;
  gap: 30px;
 }
-#side-footer > #Working-hr > h3{
- width: 100%;
+
+#side-footer > #footer-address > div {
+ align-self: center;
+ font-weight: 500;
  padding: 4px;
- text-align: center;
- border: 1px royalblue solid;
+}
+#side-footer > #Working-hr {
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ gap: 30px;
 }
 
-#side-footer > #Working-hr > nav{
+#side-footer > #Working-hr > nav {
  width: 100%;
  display: flex;
  flex-direction: column;
  justify-content: space-between;
 }
-#side-footer > #Working-hr > nav > ul{
+#side-footer > #Working-hr > nav > ul {
  width: 100%;
  align-self: center;
  list-style: none;
  padding: 4px;
 }
-#side-footer > #Working-hr > nav > ul > li{
+#side-footer > #Working-hr > nav > ul > li {
  width: 100%;
  display: flex;
  font-size: small;
  justify-content: space-between;
-line-height: 25px;
+ line-height: 25px;
  margin-top: 5px;
  font-weight: 500;
  align-self: center;
 }
 
-.contact-foot{
+.contact-foot {
  width: 100%;
  display: flex;
  justify-content: center;
@@ -94,8 +90,47 @@ line-height: 25px;
  align-self: center;
  gap: 5px;
 }
-.contact-foot > img{
+.contact-foot > img {
  width: 30px;
  border-radius: 5px;
-margin: 10px;
+ margin: 10px;
 }
+.links {
+ width: 90%;
+ border-radius: 5px;
+}
+
+.links > .foot-links > a {
+ line-height: 25px;
+ color: royalblue;
+ text-decoration: none;
+}
+
+.sponsors-foot {
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+
+.sponsors-foot > nav > ul {
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+ font-weight: 600;
+}
+.sponsors {
+ width: 100%;
+ display: flex;
+ gap: 5px;
+ align-items: center;
+ padding: 10px;
+ color: black;
+ font-weight: 600;
+ border-bottom: 1px royalblue solid;
+}
+.sponsors-img {
+ width: 25px;
+ height: 25px;
+ border-radius: 30px;
+}}

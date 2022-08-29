@@ -1,9 +1,10 @@
-#pagination{
+@media screen and (min-width : 900px){
+ #pagination{
  width: 100%;
-border: 1px red;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
+margin-top: 30px;
 }
 .pagination-btn{
  width: 50%;
@@ -14,10 +15,12 @@ align-items: center;
 }
 .pagination-arrow{
 color:black;
+width: 25px;
 }
 
 .pagination-btn > button{
  width: 25px;
- height: 25px;
+border: none;
+height: 25px;
  border-radius: 50%;
-}
+}}

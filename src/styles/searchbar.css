@@ -1,16 +1,19 @@
-#search-bar {
-  width: 60%;
-  height: 40px;
-  display: block;
-  margin: 25px auto;
-  border: none;
-  border: 1px solid #333;
-  padding-left: 20px;
-  font-size: larger;
-}
+@media screen and (min-width: 900px) {
+  #search-bar {
+    width: 60%;
+    height: 40px;
+    display: block;
+    margin: 25px auto;
+    border: none;
+    border: 1px solid #333;
+    padding-left: 20px;
+    font-size: larger;
+  }
 
-#search-bar::placeholder {
-  color: #000;
-  font-size: 19px;
-  opacity: 0.8;
+  #search-bar::placeholder {
+    color: #000;
+    font-size: 19px;
+    opacity: 0.8;
+  }
+
 }

@@ -1,35 +1,26 @@
-.navbar {
-  border-bottom: 1px solid #f0f3fa;
-  min-width: 80%;
+@media screen and (min-width : 900px){
+  .navbar {
+border-bottom: 1px solid #f0f3fa;
+min-width: 80%;
 
 }
 .navbar .links {
-  display: flex;
-  justify-content: space-between;
-  margin: 10px 0 10px;
-}
-.navbar a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px rgb(255, 208, 0) solid;
-  width: 100%;
-  height: 30px;
-  max-width: 100%;
-  text-decoration: none;
-  color: royalblue;
-}
-.navbar a:hover {
-  color: #ffffff;
-  background-color: #3571f1;
-}
-.sponsors{
 display: flex;
 justify-content: space-between;
+margin: 10px 0 10px;
+}
+.navbar a {
+display: flex;
+justify-content: center;
 align-items: center;
-border: red solid;
+border: 1px rgb(255, 208, 0) solid;
+width: 100%;
+height: 30px;
+max-width: 100%;
+text-decoration: none;
+color: royalblue;
 }
-.sponsors-img{
-width: 25px;
-height: 25px;
-}
+.navbar a:hover {
+color: #ffffff;
+background-color: #3571f1;
+}}

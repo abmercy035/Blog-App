@@ -31,7 +31,13 @@ export const Home = ({ searchFor }) => {
     <>
       <div id='home'>
         <div className='posts'>
-          {error && <div> {error} </div>}
+        <Pagination
+            pages={len}
+            pagination={page}
+            Func={e => {
+              setPage(e)
+            }}
+          />       {error && <div> {error} </div>}
           {isFetching && <div> Loading... </div>}
           {blogs &&
             (!searchFor ? (
@@ -65,6 +71,8 @@ export const Home = ({ searchFor }) => {
           <div>
           </div>
         </Link>
+      <div id="copyright"> Javascript Enthusiast </div>
+
       </section>
     </>
   )
