@@ -3,7 +3,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/bloglist.css'
-// import BlogDetails from './BlogDetails';
 import Img from './Img'
 import Text from './Text'
 
@@ -18,6 +17,7 @@ export default function BlogList ({ blogs, title, pagination }) {
             <div key={blog.id} className='blog-preview'>
               <h2 className='post-title'> {blog.title} </h2>
 
+              
               <div className='post-category'>
                 <Link to={'/post/?categories=' + blog.category}>
                   Category: <span>{blog.category}</span>

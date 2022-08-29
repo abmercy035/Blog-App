@@ -1,3 +1,68 @@
+/* Style for 400- width */
+
+
+@media screen and (max-width : 400px){
+  #header {
+ max-height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border: red solid;
+}
+.header-logo {
+  width: 100%;
+  min-height : 30%;
+margin-bottom: 10px;
+}
+#header > h1 {
+ margin: 10px;
+  color: #3571f1;
+  font-size: 20px;
+ text-shadow: 0px 1px 1px rgb(0, 0, 0);
+}
+}
+
+
+
+
+
+
+
+/* Style for 401 to 900 width */
+
+/* 
+@media screen and (min-width : 401px) {
+@media screen and (max-width : 900px) {
+ #header {
+ min-height: 100px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 20px;
+ border: rgb(0, 26, 255) solid;
+}
+.header-logo {
+ width: 100%;
+ min-height: 100px;
+margin-bottom: 10px;
+}
+#header > h1 {
+margin: 20px;
+ color: #3571f1;
+ font-size: 30px;
+text-shadow: 0px 1px 1px rgb(0, 0, 0);
+}
+}
+}
+ */
+
+
+/* Style for 900+ width */
+/* 
+
 @media screen and (min-width : 900px){
   #header {
   min-height: 210px;
@@ -18,4 +83,4 @@ margin-bottom: 10px;
  text-shadow: 0px 1px 1px rgb(0, 0, 0);
 
 }
-}
+} */

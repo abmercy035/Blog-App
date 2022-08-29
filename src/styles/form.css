@@ -1,3 +1,160 @@
+@media screen and (min-width : 600px){
+  .form > * h3{
+  width: 100%;
+  color: red !important;
+  text-align: center;
+  align-self: center;
+  margin: 15px 0 20px;
+  text-align: center;
+  border: 1px royalblue solid;
+  padding: 4px ;
+}
+.form > * input[type="submit"] {
+  width: 100%;
+  height: 35px;
+  background-color: #000;
+  border: none;
+  padding-left: 2px;
+  color: royalblue;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.form{
+ height: fit-content;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+}
+.sub-form{
+ width: 90%;
+ height: 180px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ padding-bottom: 5px;
+margin: 40px;
+}
+
+.sub-form > h3{
+ width: 80%;
+ height: fit-content;
+text-align: center;
+font-weight: 400;
+}
+.sub-form > form{
+ width: 100%;
+ /* border: red solid; */
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ gap: 10px;
+}
+
+.sub-form > form > input{
+width: 100%;
+height: 30px;
+border: none;
+}
+.login-form{
+  width: 90%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ padding-bottom: 5px;
+margin: 40px;
+}
+
+.login-form > h3{
+ width: 80%;
+ height: fit-content;
+text-align: center;
+font-weight: 400;
+}
+.login-form > form{
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ gap: 10px;
+}
+
+.login-form > form > input{
+width: 100%;
+height: 35px;
+border: none;
+padding-left: 2px;
+}
+.login-form > form > input::placeholder{
+width: 100%;
+height: 35px;
+border: none;
+padding-left: 5px ;
+}
+
+.login-form > form > #category{
+width: 100%;
+height: 35px;
+border: none;
+opacity: 0.75;
+}
+.login-form > form > textarea{
+width: 100%;
+height: 100px;
+border: none;
+padding-left: 5px;
+}
+
+.contact-form{
+  width: 90%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ padding-bottom: 5px;
+margin: 40px;
+}
+
+.contact-form > h3{
+ width: 80%;
+ height: fit-content;
+text-align: center;
+font-weight: 400;
+}
+.contact-form > form{
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ gap: 10px;
+}
+
+.contact-form > form > input{
+width: 100%;
+height: 35px;
+border: none;
+padding: 5px;
+}
+
+.contact-form > form > textarea{
+width: 100%;
+height: 100px;
+border: none;
+padding: 5px;
+font-size: large;
+}
+}
+
+
+
+
+/* Style for 900+ width */
+
+
+
 @media screen and (min-width : 900px){
   .form > * h3{
   width: 100%;
