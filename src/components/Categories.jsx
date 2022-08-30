@@ -11,15 +11,18 @@ export default function Categories ({ category }) {
   return (
     <div className='blog-categories'>
       {blogs?.filter((blogComments, index) => {
+        
           if (blogComments?.category === category) return blogComments
         }).map((blogComments, index) => {
           if (index < 1) {
             return (
               <div key={index} className='categories-samples'>
+
                 <Link to={`/posts/${blogComments.postId}`}>
-                  {blogComments?.body.slice(1, 80)}
+                  {blogComments?.title}
                 </Link>
-                <Link to={`/posts/${blogComments.postId}`}>
+
+                <Link to={`/posts/${blogComments.postId}`} className="cat-link">
                   More Post On {blogComments?.category}
                 </Link>
               </div>

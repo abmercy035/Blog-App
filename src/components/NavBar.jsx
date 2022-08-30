@@ -1,50 +1,73 @@
 /** @format */
 
-import React from "react";
-import { useState } from "react";
+import React from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/nav.css'
 
-export default function NavBar() {
+export default function NavBar () {
   const [showBar, setShowBar] = useState(true)
-  const body = document.querySelector('.content')
+  const body = document.querySelector('#root')
   const toggle = () => {
     const bar = document.querySelector('.navbar')
-    if (showBar)
-    {
-      bar.style.display = "block"
-      body.style.position = "fixed"
+    if (showBar) {
+      bar.style.display = 'block'
+      setShowBar(prev => !prev)
+    } else {
+      bar.style.display = 'none'
       setShowBar(prev => !prev)
     }
-    else{    bar.style.display = "none";
-    body.style.position = "relative"
-    setShowBar(prev => !prev)}
   }
   return (
     <>
-      <div id="toggle-bar" onClick={toggle} >
+      <div id='toggle-bar' onClick={toggle}>
         <span></span>
         <span></span>
         <span></span>
       </div>
-
-      <nav className="navbar">
+<div id="cover"></div>
+      <nav className='navbar'>
         {/* <div id="close-bar" onClick={toggle}>X</div> */}
-      <div className="links">
-        <Link to='/'> Home </Link>
-        <Link to='/contact'> Trending Posts </Link>
-        <Link to='/contact'> Recent Posts </Link>
-        <Link to="/contact"> Categories </Link>
-        <Link to='/contact'> Subscribe </Link>
-        <Link to='/contact'> Add Post </Link>
-        <Link to='/contact'> Archive </Link>
-        <Link to='/contact'> Contact </Link>
-        <Link to='/contact'> About-us </Link>
-        <Link to='/contact'> Log-out </Link>
-      </div>
-    </nav></>
-  );
+        <div className='links'>
+          <Link to='/' onClick={toggle} > Home </Link>
+          <Link to='/contact' onClick={toggle}>
+            {' '}
+            Trending Posts{' '}
+          </Link>
+          <Link to='/contact' onClick={toggle}>
+            {' '}
+            Recent Posts{' '}
+          </Link>
+          <Link to='/contact' onClick={toggle}>
+            {' '}
+            Categories{' '}
+          </Link>
+          <Link to='/contact' onClick={toggle}>
+            {' '}
+            Subscribe{' '}
+          </Link>
+          <Link to='/contact' onClick={toggle}>
+            {' '}
+            Add Post{' '}
+          </Link>
+          <Link to='/contact' onClick={toggle}>
+            {' '}
+            Archive{' '}
+          </Link>
+          <Link to='/contact' onClick={toggle}>
+            {' '}
+            Contact{' '}
+          </Link>
+          <Link to='/contact' onClick={toggle}>
+            {' '}
+            About-us{' '}
+          </Link>
+          <Link to='/contact' onClick={toggle}>
+            {' '}
+            Log-out{' '}
+          </Link>
+        </div>
+      </nav>
+    </>
+  )
 }
-
-
-  
