@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Text from './Text'
-import Input from './Input.jsx'
 import Img from './Img'
 import NavBar from './NavBar.jsx'
 import facebook from '../img/facebook.png'
@@ -10,6 +9,8 @@ import instagram from '../img/instagram.png'
 import twitter from '../img/twitter.png'
 import gmail from '../img/gmail.png'
 import '../styles/footer.css'
+import ScrollAnimation from 'react-animate-on-scroll';
+
 export default function Footer () {
   return (
     <div id='side-footer'>
@@ -17,20 +18,22 @@ export default function Footer () {
       <div id='footer-address'>
         <h3> Address</h3>
         <Text
-          txt={
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ratione, facere beatae voluptatum iure mollitia.'
+          elem="address" txt={
+            ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ratione, facere beatae voluptatum iure mollitia.'
           }
         />
+
       </div>
+
       <div id='Working-hr'>
         <h3>Working Hours </h3>
-        <nav>
+        <nav id="hr-list">
           <ul>
-            <li id='wH'>
+            <li id='hr'>
               <b>Monday - Friday:</b>
               <i> 9:00am - 5:00pm</i>
             </li>
-            <li id='wH'>
+            <li id='hr'>
               <b>Saturday - Sunday:</b>
               <i> 12:00pm - 4:00pm </i>
             </li>
@@ -76,23 +79,18 @@ export default function Footer () {
           <nav>
             <ul>
               <li className='sponsors'>
-                <Img src={facebook} cls='sponsors-img' />
                 <Text txt={'loremviure mollitia.'} elem='span' />
               </li>
               <li className='sponsors'>
-                <Img src={facebook} cls='sponsors-img' />
                 <Text txt={'loremviure mollitia.'} elem='span' />
               </li>
               <li className='sponsors'>
-                <Img src={facebook} cls='sponsors-img' />
                 <Text txt={'loremviure mollitia.'} elem='span' />
               </li>
               <li className='sponsors'>
-                <Img src={facebook} cls='sponsors-img' />
                 <Text txt={'loremviure mollitia.'} elem='span' />
               </li>
               <li className='sponsors'>
-                <Img src={facebook} cls='sponsors-img' />
                 <Text txt={'loremviure mollitia.'} elem='span' />
               </li>
             </ul>
@@ -108,7 +106,6 @@ export default function Footer () {
         adipisicing elit. Ad, repellendus!
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, atque! Labore aliquid blanditiis non quod dolore provident dolorem nulla quaerat.
       </div>
-      <NavBar />
     </div>
   )
 }

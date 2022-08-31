@@ -29,7 +29,7 @@ export default function Aside () {
 <MostEngaged />
           <h3>{'Categories'}</h3>
 <Categories category={'Art'}/>
-<Categories category={'Science And Tech'}/>
+<Categories category={'Science-and-Tech'}/>
 <Categories category={'Music'}/>
 <Categories category={'Entertainment'}/>
 <Categories category={'Food'}/>
