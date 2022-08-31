@@ -1,44 +1,61 @@
-@media only screen and (min-width: 900px)
-{#pagination{
- width: 100%;
-border: 1px red;
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-margin-top: 40px;
-}
-.pagination-btn{
- width: 50%;
- height: 50px;
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-}
-.pagination-btn{
- height: 50px;
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-}
-.pagination-arrow{
- color:black;
- width: 25px;
-}
-    .pagination-arrow:hover{
- background-color:royalblue;
- width: 30px;
- border-radius: 100%;
-}
-
-.pagination-btn > button{
- width: 25px;
- height: 25px;
- border-radius: 50%;
- border: none;
-}
-.pagination-btn > button:hover{
- width: 27px;
- height: 27px;
- border-radius: 50%;
- border: 1px royalblue solid;
-}}
+@media screen and (max-width : 400px){
+    #pagination{
+    width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 30px;
+   }
+   .pagination-btn{
+    width: 50%;
+    height: 50px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   }
+   .pagination-arrow{
+   color:black;
+   width: 25px;
+   }
+   
+   .pagination-btn > button{
+    width: 25px;
+   border: none;
+   height: 25px;
+    border-radius: 50%;
+   }}
+   
+   
+   
+   
+   
+   
+   
+   /* 
+   
+   @media screen and (min-width : 900px){
+    #pagination{
+    width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 30px;
+   }
+   .pagination-btn{
+    width: 50%;
+    height: 50px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   }
+   .pagination-arrow{
+   color:black;
+   width: 25px;
+   }
+   
+   .pagination-btn > button{
+    width: 25px;
+   border: none;
+   height: 25px;
+    border-radius: 50%;
+   }} */
