@@ -3,7 +3,16 @@ import Input from './Input'
 import Opt from './Opt'
 import '../styles/form.css'
 import { useState } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+import { useEffect } from 'react'
+
 export default function Form () {
+
+  useEffect(() => {
+    AOS.init({ duration : 1000})
+   }, [])
+
   const [opt, setOpt] = useState(false)
 
   const signUp = document.querySelector('#signUp')
@@ -18,7 +27,7 @@ export default function Form () {
       signIn.color = "black"
       signUp.style.borderBottomRightRadius="15px"
       signUp.style.borderTopRightRadius="15px"
-
+      setOpt(false)
     }
     else if (e.target.textContent === "Login to Account")
     {
@@ -28,14 +37,14 @@ export default function Form () {
       signUp.color = "black"
       signIn.style.borderTopLeftRadius="15px"
       signIn.style.borderBottomLeftRadius="15px"
+      setOpt(true)
    }
-     setOpt(prev => !prev)
   }
 
   const Switch = () => {
     if (opt) {
       return (
-        <form action='./post' method='post' onSubmit={e => e.preventDefault()}>
+        <form data-aos="fade-left" action='./post' method='post' onSubmit={e => e.preventDefault()}>
           <Input pH={'Name'} id='name' />
           <Input type='password' id='password' />
           <hr />
@@ -45,7 +54,7 @@ export default function Form () {
     } else {
       return (
        
-        <form action='./post' method='post' onSubmit={e => e.preventDefault()}>
+        <form data-aos="fade-left" action='./post' method='post' onSubmit={e => e.preventDefault()}>
           <Input pH={'Name'} id='name' />
           <Input type='email' pH={'Email'} name='email' id='email' />
           <Input type='tel' pH={'Phone'} id='phone' />
@@ -67,7 +76,7 @@ export default function Form () {
   }
   return (
     <div className='form'>
-      <div className='sub-form'>
+      <div data-aos="fade-right" className='sub-form'>
         <h2> Subscribe for notification of New Blog Post</h2>
         <form action='./post' method='post'>
           <Input type='email' pH={'Email'} id='sub-email' />
@@ -75,7 +84,7 @@ export default function Form () {
         </form>
       </div>
 
-      <div className='login-form'>
+      <div data-aos="fade-right" className='login-form'>
         <div id="sign-opt">
         <h2 id='signUp' onClick={triggerSwitch}>
             Create an Account
@@ -86,7 +95,7 @@ export default function Form () {
         </div>
         {Switch()}
       </div>
-      <div className='contact-form'>
+      <div data-aos="fade-right" className='contact-form'>
         <h3> Contact Us</h3>
         <form action='./post' method='post'>
           <Input pH={'Full Name'} id='contact-name' />
