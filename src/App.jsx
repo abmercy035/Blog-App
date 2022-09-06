@@ -8,6 +8,7 @@ import BlogDetails from "./components/BlogDetails";
 import NotFound from "./components/NotFound";
 import Input from "./components/SearchBar";
 import Header from "./components/Header";
+import Profile from "./components/Profile";
 
 function App() {
   const [searchFor, setSearchFor] = useState(""),
@@ -28,6 +29,7 @@ function App() {
                 <Home searchFor={searchFor} />
               } />
               <Route exact path="/posts/:id" element={<BlogDetails />} />
+              <Route exact path="/profile/:id" element={<Profile />} />
               <Route exact path="/create" element={<Create />} />
               <Route exact path="*" element={<NotFound />} />
             </Routes>

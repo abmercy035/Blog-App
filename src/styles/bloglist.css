@@ -59,16 +59,25 @@
   box-shadow: 0px 0px 1px rgb(70, 69, 69);
   padding: 0 5px;
  }
- .post-foot > p {
+ .post-foot > .user{
+  color: black;
+  font-style: italic;
   display: flex;
- gap: 5px;
+  justify-content: space-between;
   align-items: center;
  }
- .post-avatar{
+ .post-foot > .user >  a {
+  align-items: center;
+  font-size: 12px;
+  text-decoration: none;
+  margin: 0 0  0 2px;
+ }
+.user .post-avatar{
  width: 20px;
  height: 20px;
  border-radius: 50px;
  }
+
  .blog-preview p {
    color: #4e4d4d;
    font-size: small;

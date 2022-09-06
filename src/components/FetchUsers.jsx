@@ -15,8 +15,8 @@ export default function FetchUsers({ from }){
               <img
                 src={user.avatar + Number(Math.floor(Math.random() * 10))}
                 alt={"profile"}
-              />
-              <Link to={`/posts/${user.id}`}>Post by {user.username}</Link>
+              className="post-avatar" />
+              <Link to={`/profile/${user.id}`}>Post by {user.username}</Link>
             </span>
           );
         }

@@ -1,7 +1,8 @@
 {
+
   "users": [{
       "full name": "Toni Robel",
-      "avatar": "https://picsum.photos/20?random=",
+      "avatar": "https://picsum.photos/360?random=",
       "id": "d5b0e443-60cd-42d9-8b24-4e1cdb2d81d3",
       "username": "Toni.Robel",
       "email": "Toni28@yahoo.com",
@@ -12,7 +13,7 @@
     },
     {
       "full name": "Natasha Goldner",
-      "avatar": "https://picsum.photos/20?random=",
+      "avatar": "https://picsum.photos/360?random=",
       "id": "80704cad-a33a-4a3c-84ab-d5faa80132db",
       "username": "Natasha.Goldner",
       "email": "Natasha.Goldner@hotmail.com",
@@ -23,7 +24,7 @@
     },
     {
       "full name": "Norma Kassulke",
-      "avatar": "https://picsum.photos/20?random=",
+      "avatar": "https://picsum.photos/360?random=",
       "id": "f13feba8-b846-44d8-89ed-962e845ed61e",
       "username": "Norma_Kassulke16",
       "email": "Norma.Kassulke@gmail.com",
@@ -34,7 +35,7 @@
     },
     {
       "full name": "Lloyd Upton",
-      "avatar": "https://picsum.photos/20?random=",
+      "avatar": "https://picsum.photos/360?random=",
       "id": "5bf665ed-6c1e-4010-9cf6-d877cdfe1c60",
       "username": "Lloyd.Upton69",
       "email": "Lloyd.Upton76@yahoo.com",
@@ -45,7 +46,7 @@
     },
     {
       "full name": "Maurice Toy",
-      "avatar": "https://picsum.photos/20?random=",
+      "avatar": "https://picsum.photos/360?random=",
       "id": "1bac9cd8-bcba-4aa3-8b34-5d22a5022907",
       "username": "Maurice_Toy",
       "email": "Maurice86@yahoo.com",
@@ -57,7 +58,7 @@
     ,
     {
       "full name": "Virgil Christiansen",
-      "avatar": "https://picsum.photos/20?random=",
+      "avatar": "https://picsum.photos/360?random=",
       "id": "9b2d9ef8-c531-43fd-9d6d-29da6c804923",
       "username": "Virgil.Christiansen",
       "email": "Virgil.Christiansen@hotmail.com",
@@ -69,7 +70,7 @@
     ,
     {
       "full name": "Peter Christ",
-      "avatar": "https://picsum.photos/20?random=",
+      "avatar": "https://picsum.photos/360?random=",
       "id": "9b2d9ef8-c531-43fd-9d6d-29da6c804923",
       "username": "Peter.Christ",
       "email": "Peter.Christ@hotmail.com",
@@ -81,7 +82,7 @@
     ,
     {
       "full name": "John Will",
-      "avatar": "https://picsum.photos/20?random=",
+      "avatar": "https://picsum.photos/360?random=",
       "id": "9b2d9ef8-c531-43fd-9d6d-29da6c804923",
       "username": "John.Will",
       "email": "John.Will@hotmail.com",
@@ -93,7 +94,7 @@
     ,
     {
       "full name": "Thomas lucky",
-      "avatar": "https://picsum.photos/20?random=",
+      "avatar": "https://picsum.photos/360?random=",
       "id": "9b2d9ef8-c531-43fd-9d6d-29da6c804923",
       "username": "Thomas.lucky",
       "email": "Thomas.lucky@hotmail.com",
@@ -105,7 +106,7 @@
     ,
     {
       "full name": "Jane Smith",
-      "avatar": "https://picsum.photos/20?random=",
+      "avatar": "https://picsum.photos/360?random=",
       "id": "9b2d9ef8-c531-43fd-9d6d-29da6c804923",
       "username": "Jane.Smith",
       "email": "Jane.Smith@hotmail.com",

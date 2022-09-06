@@ -32,7 +32,7 @@ export default function NavBar () {
           <Link to='/' onClick={toggle}>
             Home
           </Link>
-          <Link to='/contact' onClick={toggle}>
+          <Link to='/#mostengaged' onClick={toggle}>
             Trending Posts
           </Link>
           <Link to='/contact' onClick={toggle}>

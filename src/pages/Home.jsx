@@ -6,7 +6,7 @@ import Aside from '../components/Aside'
 import '../styles/home.css'
 import { useEffect, useState } from 'react'
 import Pagination from '../components/Pagination'
-import MainFooter from '../components/MainFooter'
+import AddPost from '../components/AddPost'
 
 export const Home = ({ searchFor }) => {
   const { data: blogs, isFetching, error } = useFetch(
@@ -69,7 +69,7 @@ export const Home = ({ searchFor }) => {
           <Aside />
         </div>
       </div>
-      <MainFooter />
+      <AddPost />
     </>
   )
 }
