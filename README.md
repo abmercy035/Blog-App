@@ -7,5 +7,5 @@ run "npm install"
 # Start server on port 3000
 run "npm start"
 
-# Server Mock BAckend Api
+# Start Mock BAckend Api server
 run "npm run dev" 
