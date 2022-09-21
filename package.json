@@ -1,47 +1,32 @@
 {
-  "name": "mainreactapp",
-  "version": "0.1.0",
+  "name": "frontendframe",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.1.1",
-    "@testing-library/user-event": "^13.5.0",
-    "axios": "^0.26.1",
-    "formik": "^2.2.9",
-    "mongoose": "^6.3.0",
-    "nodemon": "^2.0.15",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-redux": "^8.0.0",
-    "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
-    "redux": "^4.1.2",
-    "redux-thunk": "^2.4.1",
-    "web-vitals": "^2.1.4"
-  },
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "vite  --host --port 3000",
     "dev": "json-server --watch ./data/db.json --port 5000",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "aos": "^2.3.4",
+    "axios": "^0.27.2",
+    "json-server": "^0.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^6.6.1",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.0",
+    "socket.io-client": "^4.5.2"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "vite": "^3.1.0"
   }
 }
