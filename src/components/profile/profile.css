@@ -1,0 +1,211 @@
+#profile {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+#profile-menu-header {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#profile-toggle-bar {
+  width: 7vw;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  margin: 3px 3px 3px 0px;
+  justify-content: space-evenly;
+}
+#profile-toggle-bar > span {
+  display: block;
+  width: 100%;
+  height: calc(50% / 3);
+  background-color: #2e2e30;
+  align-self: flex-end;
+  border-radius: 30px;
+}
+#profile-toggle-bar > span:last-child {
+  width: 70% !important;
+  background-color: #ffffff;
+}
+.profile-setting-icon {
+  width: 7vw;
+  margin: 3px 0px 3px 3px;
+}
+#profile-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#profile section {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+section >  #profile-header{
+  background-color: #3571f1;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  position: fixed;
+  letter-spacing: 0.1ch;
+  padding-bottom: 5px;
+}
+section > #profile-header > #profile-avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+
+ #profile-header >.profile-name {
+  font-size: larger;
+  text-shadow: 0px 0px 5px #2e2e30;
+}
+
+#profile-header > .profile-info-container{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-direction : column;
+  justify-content: center;
+  align-items: center;
+  cursor: context-menu;
+  text-shadow: 0px 0px 5px #2e2e30;
+}
+.profile-info-tabs{
+  width: 100%;
+  display: flex;
+  margin: 5px;
+  
+}
+.info-tab{
+  width: 100%;
+  display: flex;
+  flex-direction : column;
+  align-items: center;
+  margin: 5px;
+  gap: 3px;
+}
+.profile-tabs-value{
+  font-size: 14px;
+  font-weight: 600;
+}
+.profile-tabs-title{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+  font-weight: 600;
+}
+
+.profile-details-tabs{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding:5px 15px;
+  cursor: context-menu;
+  text-shadow: 0px 0px 5px #2e2e30;
+}
+.details-tab{
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 650;
+  cursor: context-menu;
+}
+
+
+.profile-details-cont{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 300px;
+  overflow: scroll;
+height: 100%;
+padding: 15px 0 30px;
+cursor: context-menu;
+
+}
+
+
+.profile-popular{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profile-popular > .popular-posts{
+  height: 17.5vw;
+  display: grid;
+  grid-template-columns: 30% 60% 5%;
+  grid-gap: 3%;
+  justify-content: space-between;
+}
+
+.popular-posts > .post-details-left > img{
+  width: 20vw;
+  height: 17vw;
+  border-radius: 10%;
+}
+.popular-posts > .post-details-right{
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+.popular-posts > .post-details-right > img{
+  width: 100%;
+  height: 5vw;
+}
+.popular-posts > .post-details-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1vh;
+  margin: auto;
+}
+
+.post-details-center > .top{
+  height: 100%;
+}
+.post-details-center > .top > .title{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 4vw;
+  font-variant-caps: petite-caps;
+}
+.post-details-center > .top > .title > a{
+  text-decoration: none;
+  color: #1046bb;
+}
+.post-details-center > .foot{
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: space-between;
+}
+.post-details-center > .foot > .category, 
+.post-details-center > .foot > .time{
+  color: #1046bb;
+  font-weight: 550;
+  font-size: 2.7vw;
+  opacity: 0.9;
+}
+  .post-details-center > .foot > .category >a{
+text-decoration-line: underline;
+text-decoration-color:rgb(212, 212, 209);
+text-decoration-thickness: 1px;
+
+  color: #000000;
+}
